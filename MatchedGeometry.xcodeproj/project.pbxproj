@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B5B2ADF26F7F49C00F8B44C /* MatchedGeometryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B2ADE26F7F49C00F8B44C /* MatchedGeometryApp.swift */; };
+		8B5B2AE126F7F49C00F8B44C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B2AE026F7F49C00F8B44C /* ContentView.swift */; };
+		8B5B2AE326F7F4A000F8B44C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B2AE226F7F4A000F8B44C /* Assets.xcassets */; };
+		8B5B2AE626F7F4A000F8B44C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B2AE526F7F4A000F8B44C /* Preview Assets.xcassets */; };
+		8B5B2AF026F7F4A000F8B44C /* MatchedGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B2AEF26F7F4A000F8B44C /* MatchedGeometryTests.swift */; };
+		8B5B2AFA26F7F4A000F8B44C /* MatchedGeometryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B2AF926F7F4A000F8B44C /* MatchedGeometryUITests.swift */; };
+		8B5B2AFC26F7F4A000F8B44C /* MatchedGeometryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B2AFB26F7F4A000F8B44C /* MatchedGeometryUITestsLaunchTests.swift */; };
+		8B5B2B0926F81C9200F8B44C /* PolygonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B2B0826F81C9200F8B44C /* PolygonView.swift */; };
+		8B5B2B0B26F81E5700F8B44C /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B2B0A26F81E5700F8B44C /* TabView.swift */; };
+		8B85C8A426FBA0EE00DB7D75 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85C8A326FBA0EE00DB7D75 /* HeroView.swift */; };
+		8B85C8A626FBA0FD00DB7D75 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85C8A526FBA0FD00DB7D75 /* BlurView.swift */; };
+		8B85C8A926FBA13000DB7D75 /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85C8A826FBA13000DB7D75 /* HeroDetailView.swift */; };
+		8BFECDD826FBE3F20027A954 /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFECDD726FBE3F20027A954 /* Transitions.swift */; };
+		8BFECDDA26FBE4140027A954 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFECDD926FBE4140027A954 /* EnvironmentValues.swift */; };
+		8BFECDDC26FC054A0027A954 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFECDDB26FC054A0027A954 /* Animations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B5B2AEC26F7F4A000F8B44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B5B2AD326F7F49C00F8B44C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5B2ADA26F7F49C00F8B44C;
+			remoteInfo = MatchedGeometry;
+		};
+		8B5B2AF626F7F4A000F8B44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B5B2AD326F7F49C00F8B44C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5B2ADA26F7F49C00F8B44C;
+			remoteInfo = MatchedGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B5B2ADB26F7F49C00F8B44C /* MatchedGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5B2ADE26F7F49C00F8B44C /* MatchedGeometryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryApp.swift; sourceTree = "<group>"; };
+		8B5B2AE026F7F49C00F8B44C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B5B2AE226F7F4A000F8B44C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B5B2AE526F7F4A000F8B44C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B5B2AEB26F7F4A000F8B44C /* MatchedGeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5B2AEF26F7F4A000F8B44C /* MatchedGeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryTests.swift; sourceTree = "<group>"; };
+		8B5B2AF526F7F4A000F8B44C /* MatchedGeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedGeometryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5B2AF926F7F4A000F8B44C /* MatchedGeometryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryUITests.swift; sourceTree = "<group>"; };
+		8B5B2AFB26F7F4A000F8B44C /* MatchedGeometryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B5B2B0826F81C9200F8B44C /* PolygonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonView.swift; sourceTree = "<group>"; };
+		8B5B2B0A26F81E5700F8B44C /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		8B85C8A326FBA0EE00DB7D75 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		8B85C8A526FBA0FD00DB7D75 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		8B85C8A826FBA13000DB7D75 /* HeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailView.swift; sourceTree = "<group>"; };
+		8BFECDD726FBE3F20027A954 /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
+		8BFECDD926FBE4140027A954 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		8BFECDDB26FC054A0027A954 /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B5B2AD826F7F49C00F8B44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5B2AE826F7F4A000F8B44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5B2AF226F7F4A000F8B44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B5B2AD226F7F49C00F8B44C = {
+			isa = PBXGroup;
+			children = (
+				8B5B2ADD26F7F49C00F8B44C /* MatchedGeometry */,
+				8B5B2AEE26F7F4A000F8B44C /* MatchedGeometryTests */,
+				8B5B2AF826F7F4A000F8B44C /* MatchedGeometryUITests */,
+				8B5B2ADC26F7F49C00F8B44C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B5B2ADC26F7F49C00F8B44C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B5B2ADB26F7F49C00F8B44C /* MatchedGeometry.app */,
+				8B5B2AEB26F7F4A000F8B44C /* MatchedGeometryTests.xctest */,
+				8B5B2AF526F7F4A000F8B44C /* MatchedGeometryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B5B2ADD26F7F49C00F8B44C /* MatchedGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				8B5B2ADE26F7F49C00F8B44C /* MatchedGeometryApp.swift */,
+				8B5B2B0A26F81E5700F8B44C /* TabView.swift */,
+				8B5B2AE026F7F49C00F8B44C /* ContentView.swift */,
+				8B5B2B0826F81C9200F8B44C /* PolygonView.swift */,
+				8B85C8A726FBA10500DB7D75 /* Hero Animation */,
+				8B5B2AE226F7F4A000F8B44C /* Assets.xcassets */,
+				8B5B2AE426F7F4A000F8B44C /* Preview Content */,
+			);
+			path = MatchedGeometry;
+			sourceTree = "<group>";
+		};
+		8B5B2AE426F7F4A000F8B44C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B5B2AE526F7F4A000F8B44C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B5B2AEE26F7F4A000F8B44C /* MatchedGeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B5B2AEF26F7F4A000F8B44C /* MatchedGeometryTests.swift */,
+			);
+			path = MatchedGeometryTests;
+			sourceTree = "<group>";
+		};
+		8B5B2AF826F7F4A000F8B44C /* MatchedGeometryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B5B2AF926F7F4A000F8B44C /* MatchedGeometryUITests.swift */,
+				8B5B2AFB26F7F4A000F8B44C /* MatchedGeometryUITestsLaunchTests.swift */,
+			);
+			path = MatchedGeometryUITests;
+			sourceTree = "<group>";
+		};
+		8B85C8A726FBA10500DB7D75 /* Hero Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8B85C8A326FBA0EE00DB7D75 /* HeroView.swift */,
+				8B85C8A526FBA0FD00DB7D75 /* BlurView.swift */,
+				8B85C8A826FBA13000DB7D75 /* HeroDetailView.swift */,
+				8BFECDD926FBE4140027A954 /* EnvironmentValues.swift */,
+				8BFECDD726FBE3F20027A954 /* Transitions.swift */,
+				8BFECDDB26FC054A0027A954 /* Animations.swift */,
+			);
+			path = "Hero Animation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B5B2ADA26F7F49C00F8B44C /* MatchedGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5B2AFF26F7F4A000F8B44C /* Build configuration list for PBXNativeTarget "MatchedGeometry" */;
+			buildPhases = (
+				8B5B2AD726F7F49C00F8B44C /* Sources */,
+				8B5B2AD826F7F49C00F8B44C /* Frameworks */,
+				8B5B2AD926F7F49C00F8B44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatchedGeometry;
+			productName = MatchedGeometry;
+			productReference = 8B5B2ADB26F7F49C00F8B44C /* MatchedGeometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B5B2AEA26F7F4A000F8B44C /* MatchedGeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5B2B0226F7F4A000F8B44C /* Build configuration list for PBXNativeTarget "MatchedGeometryTests" */;
+			buildPhases = (
+				8B5B2AE726F7F4A000F8B44C /* Sources */,
+				8B5B2AE826F7F4A000F8B44C /* Frameworks */,
+				8B5B2AE926F7F4A000F8B44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B5B2AED26F7F4A000F8B44C /* PBXTargetDependency */,
+			);
+			name = MatchedGeometryTests;
+			productName = MatchedGeometryTests;
+			productReference = 8B5B2AEB26F7F4A000F8B44C /* MatchedGeometryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B5B2AF426F7F4A000F8B44C /* MatchedGeometryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5B2B0526F7F4A000F8B44C /* Build configuration list for PBXNativeTarget "MatchedGeometryUITests" */;
+			buildPhases = (
+				8B5B2AF126F7F4A000F8B44C /* Sources */,
+				8B5B2AF226F7F4A000F8B44C /* Frameworks */,
+				8B5B2AF326F7F4A000F8B44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B5B2AF726F7F4A000F8B44C /* PBXTargetDependency */,
+			);
+			name = MatchedGeometryUITests;
+			productName = MatchedGeometryUITests;
+			productReference = 8B5B2AF526F7F4A000F8B44C /* MatchedGeometryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B5B2AD326F7F49C00F8B44C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8B5B2ADA26F7F49C00F8B44C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					8B5B2AEA26F7F4A000F8B44C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8B5B2ADA26F7F49C00F8B44C;
+					};
+					8B5B2AF426F7F4A000F8B44C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8B5B2ADA26F7F49C00F8B44C;
+					};
+				};
+			};
+			buildConfigurationList = 8B5B2AD626F7F49C00F8B44C /* Build configuration list for PBXProject "MatchedGeometry" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B5B2AD226F7F49C00F8B44C;
+			productRefGroup = 8B5B2ADC26F7F49C00F8B44C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B5B2ADA26F7F49C00F8B44C /* MatchedGeometry */,
+				8B5B2AEA26F7F4A000F8B44C /* MatchedGeometryTests */,
+				8B5B2AF426F7F4A000F8B44C /* MatchedGeometryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B5B2AD926F7F49C00F8B44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5B2AE626F7F4A000F8B44C /* Preview Assets.xcassets in Resources */,
+				8B5B2AE326F7F4A000F8B44C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5B2AE926F7F4A000F8B44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5B2AF326F7F4A000F8B44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B5B2AD726F7F49C00F8B44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5B2AE126F7F49C00F8B44C /* ContentView.swift in Sources */,
+				8B5B2B0926F81C9200F8B44C /* PolygonView.swift in Sources */,
+				8BFECDD826FBE3F20027A954 /* Transitions.swift in Sources */,
+				8B85C8A926FBA13000DB7D75 /* HeroDetailView.swift in Sources */,
+				8B5B2B0B26F81E5700F8B44C /* TabView.swift in Sources */,
+				8B5B2ADF26F7F49C00F8B44C /* MatchedGeometryApp.swift in Sources */,
+				8BFECDDC26FC054A0027A954 /* Animations.swift in Sources */,
+				8B85C8A426FBA0EE00DB7D75 /* HeroView.swift in Sources */,
+				8BFECDDA26FBE4140027A954 /* EnvironmentValues.swift in Sources */,
+				8B85C8A626FBA0FD00DB7D75 /* BlurView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5B2AE726F7F4A000F8B44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5B2AF026F7F4A000F8B44C /* MatchedGeometryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5B2AF126F7F4A000F8B44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5B2AFA26F7F4A000F8B44C /* MatchedGeometryUITests.swift in Sources */,
+				8B5B2AFC26F7F4A000F8B44C /* MatchedGeometryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B5B2AED26F7F4A000F8B44C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B5B2ADA26F7F49C00F8B44C /* MatchedGeometry */;
+			targetProxy = 8B5B2AEC26F7F4A000F8B44C /* PBXContainerItemProxy */;
+		};
+		8B5B2AF726F7F4A000F8B44C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B5B2ADA26F7F49C00F8B44C /* MatchedGeometry */;
+			targetProxy = 8B5B2AF626F7F4A000F8B44C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B5B2AFD26F7F4A000F8B44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B5B2AFE26F7F4A000F8B44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B5B2B0026F7F4A000F8B44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatchedGeometry/Preview Content\"";
+				DEVELOPMENT_TEAM = KR424649J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alelinapps.MatchedGeometry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B5B2B0126F7F4A000F8B44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatchedGeometry/Preview Content\"";
+				DEVELOPMENT_TEAM = KR424649J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alelinapps.MatchedGeometry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B5B2B0326F7F4A000F8B44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR424649J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alelinapps.MatchedGeometryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchedGeometry.app/MatchedGeometry";
+			};
+			name = Debug;
+		};
+		8B5B2B0426F7F4A000F8B44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR424649J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alelinapps.MatchedGeometryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchedGeometry.app/MatchedGeometry";
+			};
+			name = Release;
+		};
+		8B5B2B0626F7F4A000F8B44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR424649J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alelinapps.MatchedGeometryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatchedGeometry;
+			};
+			name = Debug;
+		};
+		8B5B2B0726F7F4A000F8B44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR424649J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alelinapps.MatchedGeometryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatchedGeometry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B5B2AD626F7F49C00F8B44C /* Build configuration list for PBXProject "MatchedGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5B2AFD26F7F4A000F8B44C /* Debug */,
+				8B5B2AFE26F7F4A000F8B44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5B2AFF26F7F4A000F8B44C /* Build configuration list for PBXNativeTarget "MatchedGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5B2B0026F7F4A000F8B44C /* Debug */,
+				8B5B2B0126F7F4A000F8B44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5B2B0226F7F4A000F8B44C /* Build configuration list for PBXNativeTarget "MatchedGeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5B2B0326F7F4A000F8B44C /* Debug */,
+				8B5B2B0426F7F4A000F8B44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5B2B0526F7F4A000F8B44C /* Build configuration list for PBXNativeTarget "MatchedGeometryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5B2B0626F7F4A000F8B44C /* Debug */,
+				8B5B2B0726F7F4A000F8B44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B5B2AD326F7F49C00F8B44C /* Project object */;
+}
