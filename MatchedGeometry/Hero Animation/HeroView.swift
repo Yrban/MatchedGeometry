@@ -48,7 +48,7 @@ struct HeroView: View {
                 
                 if heroData != nil {
                     Color.clear.overlay (
-                        HeroDetailView(data: heroData!, onCloseTap: backTap, originalSize: itemSize, geometry: geometry)
+                        HeroDetailView(data: heroData!, onCloseTap: backTap, originalSize: itemSize, currentSize: geometry)
                             .matchedGeometryEffect(id: heroData!.id, in: namespace, properties: .position)
                     )
                         .zIndex(3)

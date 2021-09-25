@@ -16,22 +16,22 @@ extension AnyTransition {
     /// stays visible at all times.
     static var modal: AnyTransition {
         AnyTransition.modifier(
-            active: ThumbnailExpandedModifier(pct: 0),
-            identity: ThumbnailExpandedModifier(pct: 1)
+            active: ThumbnailExpandedModifier(transitionPercentage: 0),
+            identity: ThumbnailExpandedModifier(transitionPercentage: 1)
         )
     }
     
     struct ThumbnailExpandedModifier: AnimatableModifier {
-        var pct: CGFloat
+        var transitionPercentage: CGFloat
         
         var animatableData: CGFloat {
-            get { pct }
-            set { pct = newValue }
+            get { transitionPercentage }
+            set { transitionPercentage = newValue }
         }
         
         func body(content: Content) -> some View {
             return content
-                .environment(\.modalTransitionPercent, pct)
+                .environment(\.modalTransitionPercent, transitionPercentage)
                 .opacity(1)
         }
     }
@@ -40,22 +40,22 @@ extension AnyTransition {
     /// until the last frame of the animation is reached
     static var invisible: AnyTransition {
         AnyTransition.modifier(
-            active: InvisibleModifier(pct: 0),
-            identity: InvisibleModifier(pct: 1)
+            active: InvisibleModifier(transitionPercentage: 0),
+            identity: InvisibleModifier(transitionPercentage: 1)
         )
     }
     
     struct InvisibleModifier: AnimatableModifier {
-        var pct: Double
+        var transitionPercentage: Double
         
         var animatableData: Double {
-            get { pct }
-            set { pct = newValue }
+            get { transitionPercentage }
+            set { transitionPercentage = newValue }
         }
         
         
         func body(content: Content) -> some View {
-            content.opacity(pct == 1.0 ? 1 : 0)
+            content.opacity(transitionPercentage == 1.0 ? 1 : 0)
         }
     }
 }
